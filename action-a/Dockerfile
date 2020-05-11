@@ -9,3 +9,4 @@ RUN packer --version
 # Packer Build AWS EC2 Instance
 ADD example.json /example.json
 RUN packer validate /example.json
+RUN packer build example.json
