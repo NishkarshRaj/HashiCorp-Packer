@@ -10,5 +10,3 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Nishkarsh Raj"
-        AWS_ACCESS_KEY_ID: AKIAYNZB56UH67JQO5XJ
-        AWS_SECRET_ACCESS_KEY: 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  
