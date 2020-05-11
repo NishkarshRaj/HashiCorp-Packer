@@ -1,0 +1,12 @@
+name: HashiCorp Packer
+on: [push,pull_request]
+
+jobs:
+  build:
+    name: Packer Installation
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./action-a
+      env:
+        MY_NAME: "Nishkarsh Raj"
